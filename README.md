@@ -22,12 +22,50 @@ Como vemos las variables que quedaron  , en su mayoría casi no se relacionan li
 Sabiendo esto escogemos las variables , CONTROL , HIGHDEG y región
 Para encontrar el k adecuado se usaran los metodos del estadistico de gap , la curva del codo y el analisis de siluetas adaptados para una distancia con coseno.
 
+
+
+
+
+## Variables
+
+CONTROL
+
+REGION
+
+HIGHDEG
+
+Lo siguiente sera correr los codigos para la curva de codo , el estadisitico de gap y el coeficiente de siluetas , el cual nos indicaran un buen k , para el metodo de k-means
 ## Curva del codo
 
-Para la curva del codo la primera inclinacion importante la tomaremos en k=3
+Para la curva del codo la primera inclinación importante la tomaremos en k=3
 
 
 
 ## Estadistico de Gap
+El estadistico de gap nos muestra una grafica en cual el primer cambio positivo ocurre en k=3 , al igual que en la curva del codo
 
-ahora para encontrar el k adecuado para el metod
+
+
+## Coeficiente de la silueta 
+El coeficiente mas alto es con k=5 , sin embargo como está muy cerca de k=3 y como k=3 es de las mejores elecciones desde los metodos anteriores , para el clustering se usará k-means con k=3 
+
+
+## Dendograma 
+
+
+## Caracterización
+Grupo 0
+El primer grupo se caracteriza que en las regiones mas a las cuales tienen indice mas alto son “Rocky Mountains” , “Far West” y “Outlying areas” tiendan a ser las que mantienen una titulacion mas alta, asi mismo las instituciones privadas sin esperar beneficios tambien son las que mantienen una titulacion mas alta.
+
+Grupo 1
+En el segundo grupo las cosas son parecidas pero es más equilibrado , ahora todas las regiones tienden a ser iguales respecto a la titulación más alta que posean 
+
+
+Grupo 2
+Este es el grupo con menos datos y está enfocado a las instituciones que mantienen más su titulación más alta y tendiendo a ser de regiones más al oeste, lo mismo siendo instituciones que sean privadas sin esperar beneficios.
+
+
+Un buen grupo seria el primero ya que es el que tiene muestras mas balanceadas de las instituciones siendo el que da un mejor panorama, que casos ailsados como el grupo 2 o que tienden hacia un lado como el grupo 0.
+
+## Propuesta
+Para poder implementar esto a colombia , se podria aplicar un sondeo similar buscando donde se ubica cada institucion en el pais , cual es la maxima titulación que obtienen y que tipo de organizacion es.
