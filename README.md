@@ -28,11 +28,31 @@ Para encontrar el k adecuado se usaran los metodos del estadistico de gap , la c
 
 ## Variables
 
-CONTROL
+### CONTROL
+1, Public
+2, Private nonprofit
+3, Private for-profit
 
-REGION
+###  REGION
+- 1, New England
+- 2, Mid East
+- 3, Great Lakes
+- 4, Plains
+- 5, Southeast
+- 6, Southwest
+- 7, Rocky Mountains
+- 8, Far West
+- 9, Outlying Areas
 
-HIGHDEG
+
+### HIGHDEG
+
+- 0, Non-degree-granting
+- 1, Certificate degree
+- 2, Associate degree
+- 3, Bachelor's degree
+- 4, Graduate degree
+
 
 Lo siguiente sera correr los codigos para la curva de codo , el estadisitico de gap y el coeficiente de siluetas , el cual nos indicaran un buen k , para el metodo de k-means
 ## Curva del codo
