@@ -61,6 +61,8 @@ El coeficiente mas alto es con k=5 , sin embargo como está muy cerca de k=3 y c
 ## Caracterización
 ### Grupo 0
 El primer grupo se caracteriza que en las regiones mas a las cuales tienen indice mas alto son “Rocky Mountains” , “Far West” y “Outlying areas” tiendan a ser las que mantienen una titulacion mas alta, asi mismo las instituciones privadas sin esperar beneficios tambien son las que mantienen una titulacion mas alta.
+
+
 ![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/Grupo%200.png)
 
 
