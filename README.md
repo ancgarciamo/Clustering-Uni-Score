@@ -76,7 +76,7 @@ Este es el grupo con menos datos y está enfocado a las instituciones que mantie
 
 ![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/Grupo%202.png)
 
-Un buen grupo seria el primero ya que es el que tiene muestras mas balanceadas de las instituciones siendo el que da un mejor panorama, que casos ailsados como el grupo 2 o que tienden hacia un lado como el grupo 0.
+Un buen grupo seria el primero ya que es el que tiene muestras mas balanceadas de las instituciones siendo el que da un mejor panorama, que casos aislados como el grupo 2 o que tienden hacia un lado como el grupo 0.
 
 ## Propuesta
 Para poder implementar esto a colombia , se podria aplicar un sondeo similar buscando donde se ubica cada institucion en el pais , cual es la maxima titulación que obtienen y que tipo de organizacion es.
