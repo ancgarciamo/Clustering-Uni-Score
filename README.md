@@ -59,17 +59,17 @@ El coeficiente mas alto es con k=5 , sin embargo como está muy cerca de k=3 y c
 
 ![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/dendrograma.png)
 ## Caracterización
-Grupo 0
+### Grupo 0
 El primer grupo se caracteriza que en las regiones mas a las cuales tienen indice mas alto son “Rocky Mountains” , “Far West” y “Outlying areas” tiendan a ser las que mantienen una titulacion mas alta, asi mismo las instituciones privadas sin esperar beneficios tambien son las que mantienen una titulacion mas alta.
 ![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/Grupo%200.png)
 
 
-Grupo 1
+### Grupo 1
 En el segundo grupo las cosas son parecidas pero es más equilibrado , ahora todas las regiones tienden a ser iguales respecto a la titulación más alta que posean 
 
 ![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/Grupo%201.png)
 
-Grupo 2
+### Grupo 2
 Este es el grupo con menos datos y está enfocado a las instituciones que mantienen más su titulación más alta y tendiendo a ser de regiones más al oeste, lo mismo siendo instituciones que sean privadas sin esperar beneficios.
 
 ![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/Grupo%202.png)
