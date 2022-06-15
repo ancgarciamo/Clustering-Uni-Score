@@ -1,5 +1,5 @@
 # Clustering-Uni-Score
-El siguiente dataset de college scoreboard
+El siguiente dataset de college scoreboard se usara para una agrupacion y caracterizacion de instituciones.
 
 
 ## Pre-procesamiento de datos
@@ -11,7 +11,7 @@ usando un código para descartar las variables que no son numéricas, y al final
 ## Matriz de correlacion
 Lo siguiente sera escoger las posibles variables a analizar para aplicar el metodo de k-means, para esto hacemos una matriz de coorelacion y escogemos las variables mas dispersas
 
-
+![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/Mapa%20de%20correlacion.PNG)
 
 
 
@@ -22,7 +22,7 @@ Como vemos las variables que quedaron  , en su mayoría casi no se relacionan li
 Sabiendo esto escogemos las variables , CONTROL , HIGHDEG y región
 Para encontrar el k adecuado se usaran los metodos del estadistico de gap , la curva del codo y el analisis de siluetas adaptados para una distancia con coseno.
 
-
+![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/coseno.PNG)
 
 
 
@@ -39,31 +39,40 @@ Lo siguiente sera correr los codigos para la curva de codo , el estadisitico de 
 
 Para la curva del codo la primera inclinación importante la tomaremos en k=3
 
-
+![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/codo.PNG)
 
 ## Estadistico de Gap
 El estadistico de gap nos muestra una grafica en cual el primer cambio positivo ocurre en k=3 , al igual que en la curva del codo
 
-
+![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/GAP.png)
 
 ## Coeficiente de la silueta 
 El coeficiente mas alto es con k=5 , sin embargo como está muy cerca de k=3 y como k=3 es de las mejores elecciones desde los metodos anteriores , para el clustering se usará k-means con k=3 
 
-
+![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/siluetas%20puntajes.PNG)
+![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/K2.png)
+![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/K3.png)
+![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/K4.png)
+![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/K5.png)
+![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/K6.png)
 ## Dendograma 
 
-
+![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/dendrograma.png)
 ## Caracterización
 Grupo 0
 El primer grupo se caracteriza que en las regiones mas a las cuales tienen indice mas alto son “Rocky Mountains” , “Far West” y “Outlying areas” tiendan a ser las que mantienen una titulacion mas alta, asi mismo las instituciones privadas sin esperar beneficios tambien son las que mantienen una titulacion mas alta.
+![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/Grupo%200.png)
+
 
 Grupo 1
 En el segundo grupo las cosas son parecidas pero es más equilibrado , ahora todas las regiones tienden a ser iguales respecto a la titulación más alta que posean 
 
+![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/Grupo%201.png)
 
 Grupo 2
 Este es el grupo con menos datos y está enfocado a las instituciones que mantienen más su titulación más alta y tendiendo a ser de regiones más al oeste, lo mismo siendo instituciones que sean privadas sin esperar beneficios.
 
+![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/Grupo%202.png)
 
 Un buen grupo seria el primero ya que es el que tiene muestras mas balanceadas de las instituciones siendo el que da un mejor panorama, que casos ailsados como el grupo 2 o que tienden hacia un lado como el grupo 0.
 
