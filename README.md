@@ -29,9 +29,9 @@ Para encontrar el k adecuado se usaran los metodos del estadistico de gap , la c
 ## Variables
 
 ### CONTROL
-1, Public
-2, Private nonprofit
-3, Private for-profit
+- 1, Public
+- 2, Private nonprofit
+- 3, Private for-profit
 
 ###  REGION
 - 1, New England
